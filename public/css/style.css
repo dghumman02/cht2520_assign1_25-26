@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+nav {
+    background: #1e293b;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.success {
+    color: green;
+}
+
+.inline {
+    display: inline;
+}
